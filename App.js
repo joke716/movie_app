@@ -1,15 +1,15 @@
-import React from 'react';
-import { AppLoading, Font } from 'expo';
+import React from "react";
+import { AppLoading, Font } from "expo";
 import { Ionicons } from "@expo/vector-icons";
 import TabNavigation from "./navigation/TabNavigation";
 
 export default class App extends React.Component {
-
   state = {
     loaded: false
   };
 
   handleError = error => console.log(error);
+
   handleLoaded = () => this.setState({ loaded: true });
 
   loadAssets = async () => {
@@ -31,6 +31,5 @@ export default class App extends React.Component {
           />
       );
     }
-
   }
 }
