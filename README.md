@@ -16,5 +16,6 @@ iOS / Android Movie Discovery App built with React Native.
 - [x] Top Rated (TV)
 - [x] Popular (TV, X)
 - [x] Airing Today (TV)
-- [ ] TV Show Detail
-- [ ] Movie Detail
+- [x] TV Show Detail
+- [x] Movie Detail
+- [x] Search (Movie, TV)
