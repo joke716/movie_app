@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Platform } from "react-native";
 import {
@@ -6,7 +5,6 @@ import {
     createAppContainer,
     createStackNavigator
 } from "react-navigation";
-
 import MoviesScreen from "../screens/Movies";
 import TVScreen from "../screens/TV";
 import SearchScreen from "../screens/Search";
