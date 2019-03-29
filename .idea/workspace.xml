@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea300b2-ef9b-4f74-8c60-64970de82d6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/MovieSlide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MovieSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/makePhotoUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MoviePoster.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieSlide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MovieSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MovieSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/makePhotoUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/makePhotoUrl.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,13 +43,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/MovieSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+            <state relative-caret-position="433">
+              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
                 <element signature="e#1#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/MoviePoster.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#2#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/MovieSlide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="352">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding>
                 <element signature="e#1#27#0" expanded="true" />
               </folding>
@@ -70,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/makePhotoUrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -105,18 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/Detail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,14 +164,15 @@
         <option value="$PROJECT_DIR$/screens/TV/TVPresenter.js" />
         <option value="$PROJECT_DIR$/screens/TV/TVContainer.js" />
         <option value="$PROJECT_DIR$/screens/Movies/MoviesPresenter.js" />
-        <option value="$PROJECT_DIR$/components/MovieSlide.js" />
+        <option value="$PROJECT_DIR$/components/MoviePoster.js" />
         <option value="$PROJECT_DIR$/components/MovieSlider.js" />
+        <option value="$PROJECT_DIR$/components/MovieSlide.js" />
         <option value="$PROJECT_DIR$/utils/makePhotoUrl.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="590" />
+    <option name="x" value="638" />
     <option name="y" value="62" />
     <option name="width" value="1400" />
     <option name="height" value="932" />
@@ -198,6 +196,11 @@
             <path>
               <item name="movie_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="movie_app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movie_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movie_app" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,11 +214,6 @@
               <item name="movie_app" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
               <item name="TV" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="movie_app" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,15 +270,15 @@
       <workItem from="1553778968344" duration="1512000" />
       <workItem from="1553816250795" duration="10000" />
       <workItem from="1553833573093" duration="6907000" />
-      <workItem from="1553845792976" duration="3524000" />
+      <workItem from="1553845792976" duration="4444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16963000" />
+    <option name="totallyTimeSpent" value="17883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="590" y="62" width="1400" height="932" extended-state="0" />
+    <frame x="638" y="62" width="1400" height="932" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18781726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -534,30 +532,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/makePhotoUrl.js">
+    <entry file="file://$PROJECT_DIR$/components/MoviePoster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/MovieSlide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="315">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="e#1#27#0" expanded="true" />
+            <element signature="e#2#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/MovieSlider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        <state relative-caret-position="433">
+          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding>
             <element signature="e#1#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/MovieSlide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/makePhotoUrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
