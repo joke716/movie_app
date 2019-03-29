@@ -2,7 +2,7 @@
 
 import axios from "axios/index";
 
-const api - axios.create({
+const api = axios.create({
     baseURL: "https://api.themoviedb.org/3/",
     params: {
         api_key: "4a2c55d5e9b8887b8fff1ea18e693f86",
