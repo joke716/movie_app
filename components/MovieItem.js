@@ -1,5 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+
+import { TouchableWithoutFeedback } from "react-native";
+import { withNavigation } from "react-navigation";
+
 import styled from "styled-components";
 import MoviePoster from "./MoviePoster";
 import MovieRating from "./MovieRating";
@@ -33,14 +37,21 @@ const Overview = styled.Text`
 `;
 
 const MovieItem = ({
-                       id,
-                       posterPhoto,
-                       title,
-                       voteAvg,
-                       horizontal = false,
-                       overview
-                   }) =>
-    horizontal ? (
+    id,
+    posterPhoto,
+    title,
+    voteAvg,
+    horizontal = false,
+    overview,
+    isMovie = true,
+    navigation
+}) => (
+    <TouchableWithoutFeedback
+        onPress={() =>
+            navigation.navigate({ routeName: "Detail", params: { isMovie, id }})
+        }
+    >
+        {horizontal ? (
         <HContainer>
             <MoviePoster path={posterPhoto} />
             <Column>
@@ -55,7 +66,7 @@ const MovieItem = ({
                 ) : null}
             </Column>
         </HContainer>
-    ) : (
+        ) : (
         <Container>
             <MoviePoster path={posterPhoto} />
             <Title>
@@ -63,14 +74,17 @@ const MovieItem = ({
             </Title>
             <MovieRating votes={voteAvg} />
         </Container>
-    );
+        )}
+    </TouchableWithoutFeedback>
+);
 
 MovieItem.propTypes = {
     id: PropTypes.number.isRequired,
     posterPhoto: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     voteAvg: PropTypes.number.isRequired,
-    overview: PropTypes.string
+    overview: PropTypes.string,
+    inMovie: PropTypes.bool
 };
 
-export default MovieItem;
+export default withNavigation(MovieItem);
